@@ -1,6 +1,6 @@
 ---
 name: webagentur
-description: Startet ein neues Website-Projekt der Webagentur. Verwenden, wenn der Nutzer sagt „nutze die Webagentur“, „Webagentur“, „neue Website“, „neues Projekt“ oder eine Website/Landingpage bauen lassen will. Prüft den Werkzeugkasten, fragt das Briefing ab, legt den Projektordner an und startet dann die Arbeit nach CLAUDE.md.
+description: Webagentur-Arbeitsweise für alles rund um Webdesign und Webentwicklung. IMMER selbstständig verwenden, sobald es um eine Website, Landingpage, Webshop, Webdesign, Redesign, UI/UX, Branding fürs Web, Animationen, 3D im Web, SEO, Performance, Barrierefreiheit oder Deployment einer Seite geht – auch ohne dass der Nutzer „Webagentur“ sagt. Prüft den Werkzeugkasten, fragt bei neuen Projekten das Briefing ab, legt den Projektordner an und arbeitet dann nach CLAUDE.md.
 ---
 
 # Webagentur – Projektstart
@@ -13,6 +13,7 @@ Fehlt etwas: Führe `bash setup-agentur.sh` im Repo-Root aus (dauert ein paar Mi
 Fehlende Logins (Context7, Figma, Vercel) blockieren den Start nicht. Erwähne sie nur, wenn sie für den nächsten Schritt nötig sind.
 
 ## 2. Briefing abfragen (alle Fragen in EINER Nachricht)
+Geht es um ein bestehendes Projekt (Ordner mit `docs/briefing.md` vorhanden) oder nur um eine kleine Frage bzw. Änderung, dann ohne Briefing direkt im passenden Projekt weiterarbeiten.
 Ist der Projektordner schon vorhanden und `docs/briefing.md` ausgefüllt, überspringe das und mach in der dort notierten Phase weiter.
 Sonst stelle diese Fragen gesammelt und sag dazu, dass Stichworte genügen und Unbekanntes leer bleiben darf:
 
