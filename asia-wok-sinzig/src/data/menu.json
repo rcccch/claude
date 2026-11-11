@@ -1,0 +1,1570 @@
+{
+  "waehrung": "EUR",
+  "stand": "Flyer „Gültig ab 1.8.2026“",
+  "hinweis_quelle": "Alle Angaben aus den Flyer-Fotos in /flyer. Allergen-Codes sind auf den Fotos sehr klein, siehe OFFENE_FRAGEN.md.",
+  "legende": {
+    "1": "Farbstoff",
+    "2": "Antioxidationsmittel",
+    "3": "Süßungsmittel",
+    "4": "Koffeinhaltig",
+    "5": "Chininhaltig",
+    "6": "Soja",
+    "7": "Krebstiere",
+    "8": "Nüsse",
+    "9": "Konservierungsstoffe",
+    "10": "Geschmacksverstärker",
+    "11": "Sesam",
+    "12": "Ei",
+    "13": "Fisch",
+    "14": "Milch",
+    "15": "Weizenmehl"
+  },
+  "legende_zusatz": "Zutaten Sojasauce: Wasser, Sojabohnen, Zucker, Salz, Weizenmehl",
+  "kennzeichnungen": {
+    "scharf": "(scharf) im Flyer",
+    "leicht": "(leicht scharf) im Flyer",
+    "vegetarisch": "Kategorie „Vegetarische Gerichte“ bzw. „vegetarisch“ im Text"
+  },
+  "kategorien": [
+    {
+      "id": "vorspeisen",
+      "titel": "Vorspeisen",
+      "untertitel": null,
+      "quelle": "02_innenseite-1_kopfueber.jpg (um 180° gedreht), rechte Spalte oben",
+      "gerichte": [
+        {
+          "nr": "1",
+          "name": "Pekingsuppe (leicht scharf)",
+          "beschreibung": "mit Entenfleisch und Gemüse",
+          "preis": 4.0,
+          "allergene": [
+            "12",
+            "10"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "2",
+          "name": "Kung Fu - Suppe (scharf)",
+          "beschreibung": "mit Hühnerfleisch und Gemüse",
+          "preis": 4.0,
+          "allergene": [
+            "6",
+            "10"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "3",
+          "name": "Thai - Suppe (scharf)",
+          "beschreibung": "mit Hühnerfleisch und Gemüse",
+          "preis": 4.5,
+          "allergene": [
+            "6",
+            "15",
+            "10"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "3a",
+          "name": "Thai - Suppe (scharf)",
+          "beschreibung": "mit Garnelen, Champignons und Gemüse",
+          "preis": 6.0,
+          "allergene": [
+            "10"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "4",
+          "name": "Frühlingsrolle",
+          "beschreibung": "mit Hühnerfleisch und Süß-Sauer-Soße",
+          "preis": 4.5,
+          "allergene": [
+            "12",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "5",
+          "name": "Herbstrolle (6 Stück)",
+          "beschreibung": "vegetarisch und mit Süß-Sauer-Soße",
+          "preis": 3.0,
+          "allergene": [
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": true
+        }
+      ]
+    },
+    {
+      "id": "salate",
+      "titel": "Salate",
+      "untertitel": null,
+      "quelle": "02_innenseite-1_kopfueber.jpg (um 180° gedreht), rechte Spalte Mitte",
+      "gerichte": [
+        {
+          "nr": "6",
+          "name": "Gemischter Salat",
+          "beschreibung": null,
+          "preis": 5.0,
+          "allergene": [],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "7",
+          "name": "Hühnerfleisch Salat",
+          "beschreibung": "mit gebratenem Hühnerfleisch",
+          "preis": 8.0,
+          "allergene": [
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "8",
+          "name": "Entensalat",
+          "beschreibung": "mit knusprig gebackener Ente",
+          "preis": 9.5,
+          "allergene": [
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "9",
+          "name": "Hühnerfleisch Salat (Asia Art)",
+          "beschreibung": "mit knusprig gebackenem Hähnchen",
+          "preis": 8.5,
+          "allergene": [
+            "15",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "nudeln",
+      "titel": "Gebratene Nudelgerichte",
+      "untertitel": null,
+      "quelle": "02_innenseite-1_kopfueber.jpg (um 180° gedreht), rechte Spalte unten + 03_innenseite-2.jpg, 1. Spalte oben",
+      "gerichte": [
+        {
+          "nr": "10",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit Krabben, Knoblauch & Gemüse",
+          "preis": 10.0,
+          "allergene": [
+            "7",
+            "12",
+            "1",
+            "10",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "11",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit Hühnerfleisch & Gemüse",
+          "preis": 9.0,
+          "allergene": [
+            "6",
+            "12",
+            "1",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "13",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit Rindfleisch & Gemüse",
+          "preis": 10.5,
+          "allergene": [
+            "6",
+            "1",
+            "10",
+            "12"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "14",
+          "name": "„Bami Goreng“ Spezial (leicht scharf)",
+          "beschreibung": "mit Hühner- & Rindfleisch, Krabben, Gemüse und Curry-Pulver",
+          "preis": 10.0,
+          "allergene": [
+            "12",
+            "10",
+            "6",
+            "7"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "15",
+          "name": "Gebratene Nudeln (3 Sorten Fleisch)",
+          "beschreibung": "mit Krabben, Hühner-und Rindfleisch und Gemüse",
+          "preis": 10.5,
+          "allergene": [
+            "6",
+            "12",
+            "1",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "16",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit knusprig gebackenem Hähnchenschenkel (ohne Knochen), Gemüse & Erdnuss-Sauce",
+          "preis": 12.0,
+          "allergene": [
+            "12",
+            "1",
+            "10",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "85",
+          "name": "Nudel-Teller",
+          "beschreibung": "gebratene Nudeln mit Hühner- & Rindfleisch, frischen Champignons, Zwiebeln, Karotten, Porree, Sojakeimen und Knoblauch",
+          "preis": 10.5,
+          "allergene": [
+            "12",
+            "1",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "86",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit panierter Hühnerbrust & Erdnuss-Soße",
+          "preis": 11.5,
+          "allergene": [
+            "6",
+            "1",
+            "12",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "87",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit knuspriger Ente, Gemüse & Süß-Sauer-Sauce",
+          "preis": 12.0,
+          "allergene": [
+            "6",
+            "12",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "88",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit Garnelen, Knoblauch und Gemüse",
+          "preis": 11.5,
+          "allergene": [
+            "7",
+            "12",
+            "1",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "89",
+          "name": "Gebratene Nudeln",
+          "beschreibung": "mit knusprig gebackenem Hähnchenfilet & Süß-Sauer-Soße",
+          "preis": 11.5,
+          "allergene": [
+            "15",
+            "12",
+            "1",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "90",
+          "name": "Gebratene Nudeln (Kombination)",
+          "beschreibung": "mit Garnelen, Krabben, Rind- und Hühnerfleisch & Gemüse",
+          "preis": 11.5,
+          "allergene": [
+            "12",
+            "1",
+            "6",
+            "7"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "reis",
+      "titel": "Gebratene Reisgerichte",
+      "untertitel": null,
+      "quelle": "03_innenseite-2.jpg, 1. Spalte",
+      "gerichte": [
+        {
+          "nr": "17",
+          "name": "Gebratener Reis",
+          "beschreibung": "mit Hühnerfleisch & Gemüse",
+          "preis": 9.0,
+          "allergene": [
+            "6",
+            "1",
+            "12"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "19",
+          "name": "Gebratener Reis",
+          "beschreibung": "mit Rindfleisch & Gemüse",
+          "preis": 10.5,
+          "allergene": [
+            "6",
+            "1",
+            "12",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "20",
+          "name": "„Nasi Goreng“ Spezial (leicht scharf)",
+          "beschreibung": "mit Hühner-, Rindfleisch, Krabben, Gemüse & Curry-Pulver",
+          "preis": 10.5,
+          "allergene": [
+            "6",
+            "12",
+            "10",
+            "7"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "21",
+          "name": "Gebratener Reis (3 Sorten Fleisch)",
+          "beschreibung": "mit Krabben, Hühner- & Rindfleisch, Gemüse",
+          "preis": 10.5,
+          "allergene": [
+            "6",
+            "1",
+            "12",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "22",
+          "name": "Gebratener Reis",
+          "beschreibung": "mit knusprig gebackenem Hähnchenschenkel (ohne Knochen), Gemüse & & Erdnuss-Sauce",
+          "preis": 12.0,
+          "allergene": [
+            "6",
+            "12",
+            "3",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "91",
+          "name": "Reis - Teller",
+          "beschreibung": "mit Hühner- und Rindfleisch, frischen Champignons, Zwiebeln, Karotten, Porree, Sojakeimen & Knoblauch",
+          "preis": 10.5,
+          "allergene": [
+            "6",
+            "1",
+            "12",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "92",
+          "name": "Gebratener Reis",
+          "beschreibung": "mit Hühnerspießen & Erdnuss-Soße",
+          "preis": 11.5,
+          "allergene": [
+            "8",
+            "1",
+            "10",
+            "12"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "93",
+          "name": "Gebratener Reis",
+          "beschreibung": "mit knusprig gebackenem Hähnchenfilet & Süß-Sauer-Soße",
+          "preis": 11.5,
+          "allergene": [
+            "15",
+            "12",
+            "1",
+            "10",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "94",
+          "name": "Gebratener Reis",
+          "beschreibung": "mit knuspriger Ente, Gemüse & Süß-Sauer-Sauce",
+          "preis": 12.0,
+          "allergene": [
+            "6",
+            "12",
+            "1",
+            "10",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "95",
+          "name": "Gebratener Reis",
+          "beschreibung": "mit Garnelen, Knoblauch & Gemüse",
+          "preis": 11.5,
+          "allergene": [
+            "7",
+            "12",
+            "11",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        }
+      ]
+    },
+    {
+      "id": "vegetarisch",
+      "titel": "Vegetarische Gerichte",
+      "untertitel": null,
+      "quelle": "03_innenseite-2.jpg, 2. Spalte oben",
+      "gerichte": [
+        {
+          "nr": "23",
+          "name": "Gebratene Nudeln mit Gemüse",
+          "beschreibung": null,
+          "preis": 7.5,
+          "allergene": [
+            "6",
+            "1",
+            "12",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": true
+        },
+        {
+          "nr": "24",
+          "name": "Gebratener Reis mit Gemüse",
+          "beschreibung": null,
+          "preis": 7.5,
+          "allergene": [
+            "6",
+            "1",
+            "12",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": true
+        },
+        {
+          "nr": "25",
+          "name": "Gebratenes Gemüse „Chop Suey“",
+          "beschreibung": "mit gekochtem Reis",
+          "preis": 9.0,
+          "allergene": [
+            "6",
+            "1",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": true
+        },
+        {
+          "nr": "96",
+          "name": "Gebratenes „Wok Gemüse“",
+          "beschreibung": "in Curry-Soße & mit gekochtem Reis (leicht scharf)",
+          "preis": 9.0,
+          "allergene": [
+            "14"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": true
+        },
+        {
+          "nr": "97",
+          "name": "Gebratenes Gemüse „Thai Art“",
+          "beschreibung": "mit rotem Curry, Kokosmilch & gekochtem Reis (leicht scharf)",
+          "preis": 9.0,
+          "allergene": [
+            "14"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": true
+        }
+      ]
+    },
+    {
+      "id": "huhn",
+      "titel": "Hühnerfleischgerichte",
+      "untertitel": "mit Duftreis",
+      "quelle": "03_innenseite-2.jpg, 2. Spalte",
+      "gerichte": [
+        {
+          "nr": "27",
+          "name": "Hühnerfleisch „Chop Suey“",
+          "beschreibung": "mit verschiedenem Gemüse",
+          "preis": 10.0,
+          "allergene": [
+            "1",
+            "10",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "28",
+          "name": "Hühnerfleisch „Kung Bao“",
+          "beschreibung": "mit Paprika, Zwiebeln, Karotten, Bambus & Blumenkohl (leicht scharf)",
+          "preis": 10.0,
+          "allergene": [
+            "1",
+            "10"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "29",
+          "name": "Hühnerfleisch „Curry“",
+          "beschreibung": "mit verschiedenem Gemüse in Curry-Soße (leicht scharf)",
+          "preis": 10.5,
+          "allergene": [
+            "14"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "30",
+          "name": "Hühnerfleisch „Süß-Sauer“",
+          "beschreibung": "mit knusprig gebackenem Hähnchenfilet & Süß-Sauer-Soße",
+          "preis": 11.0,
+          "allergene": [
+            "15",
+            "1",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "31",
+          "name": "Hühnerfleisch „Szechuan Art“",
+          "beschreibung": "mit frischem Wok-Gemüse und Knoblauch (scharf)",
+          "preis": 10.5,
+          "allergene": [
+            "1",
+            "10",
+            "6"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "32",
+          "name": "Hühnerfleisch „Kanton Art“",
+          "beschreibung": "mit knusprig gebackenem Hähnchenfilet und Gemüse (scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "15",
+            "1",
+            "10",
+            "6"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "33",
+          "name": "Hühnerfleisch „Brokkoli“",
+          "beschreibung": "mit frischen Champignons in Sahne-Soße",
+          "preis": 11.0,
+          "allergene": [
+            "14"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "34",
+          "name": "Hühnerfleisch „Japan Art“",
+          "beschreibung": "paniertes Hähnchenbrustfilet mit Erdnuss oder Süß-Sauer-Soße",
+          "preis": 11.5,
+          "allergene": [
+            "9",
+            "12"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "auswahl": {
+            "titel": "Bitte wählen",
+            "optionen": [
+              "Erdnuss-Soße",
+              "Süß-Sauer-Soße"
+            ]
+          },
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "35",
+          "name": "Sate Ajam",
+          "beschreibung": "Hühnerspieße mit Gemüse und Erdnuss-Soße",
+          "preis": 12.0,
+          "allergene": [
+            "1",
+            "10",
+            "9"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "36",
+          "name": "Hühnerfleisch „Hong Kong Art“",
+          "beschreibung": "mit Brokkoli, Champignons, Zwiebeln, Bambus, Karotten & Knoblauch (scharf)",
+          "preis": 10.5,
+          "allergene": [
+            "1",
+            "10"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "tofu",
+      "titel": "Tofu",
+      "untertitel": "mit Duftreis",
+      "quelle": "03_innenseite-2.jpg, 3. Spalte oben",
+      "gerichte": [
+        {
+          "nr": "113",
+          "name": "Tofu „Hong Kong Art“",
+          "beschreibung": "mit Brokkoli, Champignon, Zwiebeln, Bambus, Karotten & Knoblauch (scharf)",
+          "preis": 11.0,
+          "allergene": [
+            "1",
+            "6",
+            "8",
+            "10"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "114",
+          "name": "Tofu „Kung Bao“",
+          "beschreibung": "mit Paprika, Zwiebeln, Karotten, Bambus & Blumenkohl (leicht scharf)",
+          "preis": 11.0,
+          "allergene": [
+            "1",
+            "10",
+            "15"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "115",
+          "name": "Tofu",
+          "beschreibung": "mit gebratenem Gemüse & gekochtem Reis",
+          "preis": 11.0,
+          "allergene": [
+            "1",
+            "6",
+            "8"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "116",
+          "name": "Tofu „Wok Gemüse“",
+          "beschreibung": "in Currysauce & gekochtem Reis (leicht scharf)",
+          "preis": 11.0,
+          "allergene": [
+            "6",
+            "8",
+            "14"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "117",
+          "name": "Tofu „Thai Art“",
+          "beschreibung": "mit rotem Curry, Kokosmilch (leicht scharf)",
+          "preis": 11.0,
+          "allergene": [
+            "6",
+            "8",
+            "14"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "118",
+          "name": "Tofu „Paprika“",
+          "beschreibung": "mit Champignon, Blumenkohl, Zwiebeln & Knoblauch (leicht scharf)",
+          "preis": 11.0,
+          "allergene": [
+            "14",
+            "15"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "119",
+          "name": "Tofu „zwiebeln“",
+          "beschreibung": "mit Brokkoli, Champignon, Karotten & Knoblauch (leicht scharf)",
+          "preis": 11.0,
+          "allergene": [
+            "1",
+            "6",
+            "8",
+            "10"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "rind",
+      "titel": "Rindfleischgerichte",
+      "untertitel": "mit Duftreis",
+      "quelle": "03_innenseite-2.jpg, 3. Spalte unten",
+      "gerichte": [
+        {
+          "nr": "47",
+          "name": "Rindfleisch „Chop Suey“",
+          "beschreibung": "mit verschiedenem Gemüse",
+          "preis": 12.0,
+          "allergene": [
+            "6",
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "48",
+          "name": "Rindfleisch „Kung Bao“",
+          "beschreibung": "mit Paprika, Blumenkohl, Bambus, Zwiebeln & Karotten (leicht scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "10",
+            "1"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "49",
+          "name": "Rindfleisch „Szechuan Art“",
+          "beschreibung": "mit frischem „Wok-Gemüse“ und Knoblauch (scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "6",
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "50",
+          "name": "Rindfleisch „Brokkoli“",
+          "beschreibung": "mit frischen Champignons, Karotten & Blumenkohl",
+          "preis": 12.0,
+          "allergene": [
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "51",
+          "name": "Rindfleisch „Zwiebeln“",
+          "beschreibung": "mit Paprika und Sojakeimen",
+          "preis": 11.5,
+          "allergene": [
+            "6",
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "83",
+          "name": "Rindfleisch „Curry“",
+          "beschreibung": "mit verschiedenem Gemüse",
+          "preis": 12.0,
+          "allergene": [
+            "14"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "haehnchenschenkel",
+      "titel": "Knusprig gebackener Hähnchenschenkel",
+      "untertitel": "(ohne Knochen) mit Duftreis",
+      "quelle": "03_innenseite-2.jpg, 4. Spalte oben",
+      "gerichte": [
+        {
+          "nr": "52",
+          "name": "Knusprig gebackener Hähnchenschenkel",
+          "beschreibung": "mit verschiedenem Gemüse",
+          "preis": 12.0,
+          "allergene": [
+            "6",
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "53",
+          "name": "Knusprig gebackener Hähnchenschenkel",
+          "beschreibung": "mit Paprika, Blumenkohl, Zwiebeln, Bambus & Karotten (leicht scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "54",
+          "name": "Knusprig gebackener Hähnchenschenkel",
+          "beschreibung": "mit verschiedenem Gemüse in Curry-Soße (leicht scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "55",
+          "name": "Knusprig gebackener Hähnchenschenkel",
+          "beschreibung": "mit frischem „Wok Gemüse“ und Knoblauch (scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "6",
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "56",
+          "name": "Knusprig gebackener Hähnchenschenkel",
+          "beschreibung": "mit Brokkoli, Champignons, Bambus, Zwiebeln, Karotten & Knoblauch (scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "98",
+          "name": "Knusprig gebackener Hähnchenschenkel",
+          "beschreibung": "mit verschiedenem Gemüse, rotem Curry, Kokosmilch & Thai-Kräutern (leicht scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "14",
+            "10"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "99",
+          "name": "Knusprig gebackener Hänchenschenkel",
+          "beschreibung": "mit Erdnuss oder Süß-Sauer-Soße",
+          "preis": 12.5,
+          "allergene": [
+            "15",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "auswahl": {
+            "titel": "Bitte wählen",
+            "optionen": [
+              "Erdnuss-Soße",
+              "Süß-Sauer-Soße"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ente",
+      "titel": "Knusprig gebackene Ente",
+      "untertitel": "mit Duftreis",
+      "quelle": "03_innenseite-2.jpg, 4. Spalte unten + 02_innenseite-1_kopfueber.jpg (um 180° gedreht), linke Spalte oben",
+      "gerichte": [
+        {
+          "nr": "57",
+          "name": "Knusprig gebackene Ente „Chop Suey“",
+          "beschreibung": "mit verschiedenem Gemüse",
+          "preis": 12.5,
+          "allergene": [
+            "6",
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "58",
+          "name": "Knusprig gebackene Ente „Kung Bao“",
+          "beschreibung": "mit Paprika, Blumenkohl, Zwiebeln, Bambus & Karotten (leicht scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "59",
+          "name": "Knusprig gebackene Ente „Curry“",
+          "beschreibung": "mit verschiedenem Gemüse in Curry-Soße (leicht scharf)",
+          "preis": 13.0,
+          "allergene": [
+            "14",
+            "3",
+            "10",
+            "15"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "60",
+          "name": "Knusprig gebackene Ente „Süß-Sauer“",
+          "beschreibung": "mit Süß-Sauer-Soße",
+          "preis": 13.0,
+          "allergene": [
+            "3",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "61",
+          "name": "Knusprig gebackene Ente „Szechuan Art“",
+          "beschreibung": "mit frischem „Wok-Gemüse“ und Knoblauch (scharf)",
+          "preis": 13.0,
+          "allergene": [
+            "6",
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "62",
+          "name": "Knusprig gebackene Ente „Kanton Art“",
+          "beschreibung": "mit frischem „Wok-Gemüse“ (scharf)",
+          "preis": 13.0,
+          "allergene": [
+            "6",
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "63",
+          "name": "Knusprig gebackene Ente „Bambus“",
+          "beschreibung": "mit Paprika, Sojakeimen und Karotten",
+          "preis": 12.5,
+          "allergene": [
+            "6",
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "64",
+          "name": "Knusprig gebackene Ente „Hong Kong Art“",
+          "beschreibung": "mit Brokkoli, Champignons, Zwiebeln, Bambus, Karotten & Knoblauch (scharf)",
+          "preis": 13.0,
+          "allergene": [
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "65",
+          "name": "Knusprig gebackene Ente „Thai Art“",
+          "beschreibung": "mit verschiedenem Gemüse, rotem Curry, Kokosmilch & Thai Kräutern (leicht scharf)",
+          "preis": 13.0,
+          "allergene": [
+            "11",
+            "10",
+            "1"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        }
+      ]
+    },
+    {
+      "id": "garnelen",
+      "titel": "Garnelengerichte",
+      "untertitel": "mit Duftreis",
+      "quelle": "02_innenseite-1_kopfueber.jpg (um 180° gedreht), linke Spalte Mitte",
+      "gerichte": [
+        {
+          "nr": "68",
+          "name": "Gebratene Garnelen",
+          "beschreibung": "mit verschiedenem Gemüse",
+          "preis": 12.0,
+          "allergene": [
+            "7",
+            "10",
+            "1",
+            "6"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "69",
+          "name": "Gebratene Garnelen",
+          "beschreibung": "mit frischem „Wok Gemüse“ und Knoblauch (scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "7",
+            "6",
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "70",
+          "name": "Gebratene Garnelen",
+          "beschreibung": "mit verschiedenem Gemüse, rotem Curry, Kokosmilch und Thaikräutern (leicht scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "7",
+            "10",
+            "14"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "71",
+          "name": "Gebratene Garnelen „Kung Bao“",
+          "beschreibung": "mit Paprika, Blumenkohl, Bambus, Zwiebeln und Karotten (leicht scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "7"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "wok",
+      "titel": "Wokspezialitäten",
+      "untertitel": "mit Duftreis",
+      "quelle": "02_innenseite-1_kopfueber.jpg (um 180° gedreht), linke Spalte unten + 2. Spalte oben",
+      "gerichte": [
+        {
+          "nr": "72",
+          "name": "Schneewitchen Wok",
+          "beschreibung": "knusprige Ente mit frischen Champignons und Brokkoli in Sahnesoße",
+          "preis": 13.5,
+          "allergene": [
+            "14",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "73",
+          "name": "Ente „Malaysia Art“",
+          "beschreibung": "mit verschiedenem Gemüse und Erdnuss-Soße",
+          "preis": 13.5,
+          "allergene": [
+            "8",
+            "6",
+            "15",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "74",
+          "name": "Acht Schätze",
+          "beschreibung": "mit Garnelen, Krabben, Hühner- und Rindfleisch mit 4 Gemüsesorten (leicht scharf)",
+          "preis": 12.5,
+          "allergene": [
+            "7",
+            "1",
+            "10"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "75",
+          "name": "Garnelen-Spezial",
+          "beschreibung": "mit Brokkoli, Zwiebeln, Champignons und Karotten",
+          "preis": 12.5,
+          "allergene": [
+            "7",
+            "1",
+            "10"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "76",
+          "name": "Thai Spezialitäten",
+          "beschreibung": "Hühnerbrust mit verschiedenem Gemüse, rotem Curry, Kokosmilch & Thai-Kräutern (leicht scharf)",
+          "preis": 10.5,
+          "allergene": [
+            "14",
+            "10",
+            "1"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "77",
+          "name": "Zwei Gerichte auf einem Teller",
+          "beschreibung": "Knusprig gebackene Hähnchenbrust mit Rindfleisch, Champignons, Bambus, Sojakeimen und Süß-Sauer-Soße",
+          "preis": 13.0,
+          "allergene": [
+            "6",
+            "15",
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "78",
+          "name": "Wok-Teller",
+          "beschreibung": "2 gebackene Hühnerspieße, gebackener Hähnchenschenkel mit gebratenen Nudeln und Erdnuss-Soße",
+          "preis": 13.0,
+          "allergene": [
+            "6",
+            "12",
+            "10",
+            "1"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "allergene_unsicher": true
+        },
+        {
+          "nr": "106",
+          "name": "Hühnerfleisch „Kung Bao“",
+          "beschreibung": "knusprig gebacken mit Paprika, Zwiebeln, Karotten Bambus & Blumenkohl",
+          "preis": 12.0,
+          "allergene": [
+            "1",
+            "10",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "107",
+          "name": "Hühnerfleisch „Curry“",
+          "beschreibung": "knusprig gebacken mit Gemüse in Curry-Sauce",
+          "preis": 12.0,
+          "allergene": [
+            "14",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "108",
+          "name": "Hühnerfleisch „Brokkoli“",
+          "beschreibung": "knusprig gebacken mit Champignons in Sahne-Sauce",
+          "preis": 12.0,
+          "allergene": [
+            "14",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "109",
+          "name": "Hühnerfleisch „Hong Kong Art“",
+          "beschreibung": "knusprig gebacken mit Brokkoli, Champignon, Zwiebeln, Bambus, Karotten & Knoblauch",
+          "preis": 12.0,
+          "allergene": [
+            "10",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "110",
+          "name": "Hühnerfleisch „Thai Art“",
+          "beschreibung": "knusprig gebacken mit rotem Curry, Kokosmilch (leicht scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "1",
+            "10",
+            "14",
+            "15"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        },
+        {
+          "nr": "111",
+          "name": "Rindfleisch „Hong Kong Art“",
+          "beschreibung": "mit Brokkoli, Champignon, Zwiebeln, Bambus, Karotten & Knoblauch (scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "10",
+            "1"
+          ],
+          "scharf": "scharf",
+          "vegetarisch": false
+        },
+        {
+          "nr": "112",
+          "name": "Rindfleisch „Thai Art“",
+          "beschreibung": "knusprig gebacken mit rotem Curry, Kokosmilch (leicht scharf)",
+          "preis": 12.0,
+          "allergene": [
+            "14",
+            "15"
+          ],
+          "scharf": "leicht",
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "kinder",
+      "titel": "Für unsere kleinen Gäste",
+      "untertitel": null,
+      "quelle": "02_innenseite-1_kopfueber.jpg (um 180° gedreht), 2. Spalte Mitte",
+      "gerichte": [
+        {
+          "nr": "79",
+          "name": "Tom & Jerry (mit Duftreis)",
+          "beschreibung": "Gebackenes Hänchenfilet mit Süß-Sauer-Soße",
+          "preis": 8.0,
+          "allergene": [],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "81",
+          "name": "Donald Duck (mit Duftreis)",
+          "beschreibung": "2 gebackene Hühnerspieße mit Erdnuss-Soße",
+          "preis": 8.5,
+          "allergene": [],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "82",
+          "name": "Gebackene Banane mit Honig",
+          "beschreibung": null,
+          "preis": 3.5,
+          "allergene": [],
+          "scharf": null,
+          "vegetarisch": false
+        }
+      ]
+    },
+    {
+      "id": "neu",
+      "titel": "Neu im Angebot",
+      "untertitel": "Aushang im Schaukasten, nicht im Flyer",
+      "quelle": "05_aushang_neu-im-angebot.jpg",
+      "gerichte": [
+        {
+          "nr": "40",
+          "name": "Gebackene Garnelen mit Soße",
+          "beschreibung": "mit gebratenen Nudeln oder Reis",
+          "preis": 11.0,
+          "allergene": [
+            "1",
+            "6",
+            "7",
+            "10",
+            "12",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false,
+          "auswahl": {
+            "titel": "Bitte wählen",
+            "optionen": [
+              "mit gebratenen Nudeln",
+              "mit Reis"
+            ]
+          }
+        },
+        {
+          "nr": "41",
+          "name": "Knusprig Gebackene Garnelen mit Soße",
+          "beschreibung": "mit Gemüse",
+          "preis": 12.0,
+          "allergene": [
+            "1",
+            "6",
+            "7",
+            "10",
+            "12",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "42",
+          "name": "Garnelensalat",
+          "beschreibung": "mit knusprig gebackenen Garnelen",
+          "preis": 8.0,
+          "allergene": [
+            "1",
+            "6",
+            "7",
+            "10",
+            "12",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "43",
+          "name": "Garnelen „süß-sauer“",
+          "beschreibung": "mit Duftreis, knusprig gebackenen Garnelen und süß-saurer Soße",
+          "preis": 11.0,
+          "allergene": [
+            "1",
+            "10",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "44",
+          "name": "Schneewittchen-Wok „Hähnchen“",
+          "beschreibung": "Knusprige Hähnchenschenkel mit frischen Champignons und Brokkoli in Sahnesoße",
+          "preis": 13.0,
+          "allergene": [
+            "10",
+            "14",
+            "15"
+          ],
+          "scharf": null,
+          "vegetarisch": false
+        },
+        {
+          "nr": "45",
+          "name": "Schneewittchen-Wok „Garnelen“",
+          "beschreibung": "Knusprig gebackene Garnelen mit frischen Champignons und Brokkoli in Sahnesoße",
+          "preis": 12.0,
+          "allergene": [],
+          "scharf": null,
+          "vegetarisch": false,
+          "unsicher": true,
+          "allergene_unsicher": true
+        }
+      ],
+      "nur_aushang": true,
+      "unsicher": true
+    }
+  ],
+  "extras": {
+    "titel": "Extra",
+    "quelle": "02_innenseite-1_kopfueber.jpg (um 180° gedreht), 2. Spalte unten",
+    "posten": [
+      {
+        "id": "reis",
+        "name": "gekochter Reis",
+        "preis": 3.5
+      },
+      {
+        "id": "beilage-tausch",
+        "name": "gebratener Reis oder gebratene Nudeln",
+        "hinweis": "Zu allen Gerichten statt normalem Reis",
+        "preis": 2.0,
+        "aufpreis": true,
+        "auswahl": {
+          "titel": "Statt normalem Reis",
+          "optionen": [
+            "gebratener Reis",
+            "gebratene Nudeln"
+          ]
+        }
+      },
+      {
+        "id": "sosse-1",
+        "name": "Erdnuss / Süß-Sauer-Soße",
+        "gruppe": "Extra Soße",
+        "preis": 1.5,
+        "auswahl": {
+          "titel": "Soße",
+          "optionen": [
+            "Erdnuss-Soße",
+            "Süß-Sauer-Soße"
+          ]
+        }
+      },
+      {
+        "id": "sosse-2",
+        "name": "Dunkle- / Curry-Soße",
+        "gruppe": "Extra Soße",
+        "preis": 2.0,
+        "auswahl": {
+          "titel": "Soße",
+          "optionen": [
+            "Dunkle Soße",
+            "Curry-Soße"
+          ]
+        }
+      },
+      {
+        "id": "sambal",
+        "name": "Samba Oelek",
+        "gruppe": "Extra Soße",
+        "preis": 1.0
+      }
+    ]
+  }
+}

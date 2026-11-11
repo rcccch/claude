@@ -1,0 +1,56 @@
+{
+  "name": "Asia Wok",
+  "slogan": "Asiatische Spezialitäten",
+  "adresse": {
+    "strasse": "Markt 4",
+    "plz": "53489",
+    "ort": "Sinzig",
+    "land": "DE"
+  },
+  "telefon": [
+    { "label": "Tel.", "anzeige": "02642 / 99 27 97", "e164": "+492642992797", "haupt": true },
+    { "label": "Tel./Fax", "anzeige": "02642 / 99 24 57", "e164": "+492642992457", "fax": true }
+  ],
+  "whatsapp": null,
+  "email": null,
+  "website_bisher": null,
+  "oeffnungszeiten": {
+    "zeitzone": "Europe/Berlin",
+    "tage": {
+      "mo": [["11:30", "15:00"], ["17:00", "21:30"]],
+      "di": [["11:30", "15:00"], ["17:00", "21:30"]],
+      "mi": [["11:30", "15:00"], ["17:00", "21:30"]],
+      "do": [["11:30", "15:00"], ["17:00", "21:30"]],
+      "fr": [["11:30", "15:00"], ["17:00", "21:30"]],
+      "sa": [],
+      "so": [["13:00", "21:00"]]
+    },
+    "feiertage": [["13:00", "21:00"]],
+    "anzeige": [
+      { "tage": "Mo.–Fr.", "zeiten": "11:30–15:00 Uhr und 17:00–21:30 Uhr" },
+      { "tage": "So. u. Feiertage", "zeiten": "13:00–21:00 Uhr" },
+      { "tage": "Samstag", "zeiten": "Ruhetag" }
+    ],
+    "quelle": "Flyer, Titelseite"
+  },
+  "bestellung": {
+    "abholung": true,
+    "lieferung": false,
+    "hinweis": "Telefonische Bestellung: Die Speisen können nach ca. 10–15 Minuten in einer Warmhalteverpackung abgeholt werden.",
+    "abholzeit_minuten": [10, 15],
+    "mindestbestellwert": null,
+    "quelle": "Angabe Inhaber (Chat 11.11.2026); Abholtext vom Flyer 6/2018, vom Inhaber bestätigt"
+  },
+  "zahlungsarten": ["Bar"],
+  "restaurant": {
+    "sitzplaetze": 45,
+    "aussenplaetze": "Außenplätze am Markt",
+    "barrierefrei": "Barrierefreier Zugang, barrierearmes WC",
+    "quelle": "Tourismusseite Stadt Sinzig, vom Inhaber zur Veröffentlichung freigegeben"
+  },
+  "flyer_gueltig_ab": "2026-08-01",
+  "karte": {
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Asia+Wok+Markt+4+53489+Sinzig",
+    "openstreetmap": "https://www.openstreetmap.org/search?query=Markt%204%2C%2053489%20Sinzig"
+  }
+}
