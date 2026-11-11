@@ -7,3 +7,6 @@
 - `reichkraft/` – Projektordner, Phase 1: Briefing
 
 Jedes Kundenprojekt bekommt einen eigenen Unterordner.
+
+## So startest du ein Projekt
+Neue Claude-Code-Sitzung mit diesem Repo öffnen und schreiben: **„Nutze die Webagentur“**. Claude prüft den Werkzeugkasten, fragt das Briefing ab und legt los.

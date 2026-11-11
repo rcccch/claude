@@ -1,6 +1,8 @@
 # Webagentur – Arbeitsregeln
 
-Jedes Kundenprojekt liegt in einem eigenen Unterordner (`./<kunde-projekt>/`) mit eigenem Git-Repo. Kommunikation mit mir auf Deutsch, Code und Commits auf Englisch.
+Jedes Kundenprojekt liegt in einem eigenen Unterordner (`./<kunde-projekt>/`) dieses Repos. Ein separates Repo bekommt ein Projekt erst, wenn es gewünscht wird. Kommunikation mit mir auf Deutsch, Code und Commits auf Englisch.
+
+**Sitzungsstart:** Sagt der Nutzer „nutze die Webagentur“ (oder bittet um eine neue Website), nutze den Skill `webagentur`. Er prüft den Werkzeugkasten und fragt das Briefing gesammelt ab, danach geht es los. Nach jedem abgeschlossenen Schritt committen und pushen, denn Cloud-Container sind temporär.
 
 ## Arbeitsweise (immer in dieser Reihenfolge)
 1. **Briefing**: Ziel, Zielgruppe, Inhalte, Tonalität, Referenzen und Must-haves klären. Offene Punkte gesammelt fragen, nicht einzeln.

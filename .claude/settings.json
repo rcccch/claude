@@ -1,0 +1,19 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": { "source": "github", "repo": "anthropics/claude-plugins-official" }
+    },
+    "gsap-skills": {
+      "source": { "source": "github", "repo": "greensock/gsap-skills" }
+    }
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "figma@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "modern-web-guidance@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "gsap-skills@gsap-skills": true
+  }
+}
