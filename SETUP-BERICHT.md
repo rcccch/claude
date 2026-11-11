@@ -51,26 +51,24 @@ Während der QA gefunden und behoben: abgeschnittener Shader, kollidierende Head
 
 ## 2. Dafür brauche ich deine Hilfe
 
-### 2.1 Werkzeugkasten dauerhaft machen (zuerst!)
-**Warum:** Der Cloud-Container ist temporär. Deine Befehle (`mkdir ~/webagentur && claude …`) waren für deinen eigenen Rechner gedacht.
-1. Dateien sichern, eine der beiden Varianten:
-   - **a)** Lege auf GitHub ein leeres, **privates** Repo an, z. B. `webagentur`. Nenne mir den Namen, dann pushe ich `CLAUDE.md`, `setup-agentur.sh`, `SETUP-BERICHT.md` und `demo/` (ohne `node_modules`). Es kann sein, dass du Claude dafür einmal Zugriff auf das Repo erlauben musst (claude.ai → Einstellungen → Konnektoren → GitHub).
-   - **b)** Die Dateien in der Claude-App öffnen und herunterladen.
-2. Auf deinem Rechner im Terminal:
+### 2.1 Werkzeugkasten auf deinen Rechner holen (zuerst!)
+**Warum:** Der Cloud-Container ist temporär. Gesichert ist alles bereits auf GitHub: https://github.com/rcccch/claude (✅ erledigt).
+1. Auf deinem Rechner im Terminal:
    ```bash
-   git clone git@github.com:<dein-name>/webagentur.git ~/webagentur
+   git clone https://github.com/rcccch/claude.git ~/webagentur
    ```
    ```bash
    cd ~/webagentur && bash setup-agentur.sh
    ```
-3. Claude Code neu starten, danach Punkt 4.
+2. Claude Code neu starten (`cd ~/webagentur && claude`), danach Punkt 4.
+3. Diesen Prompt nicht noch einmal einfügen: `setup-agentur.sh` installiert das fertige, geprüfte Set in wenigen Minuten.
 
 ### 2.2 Soll das auch in Cloud-Sitzungen automatisch da sein?
 Falls du weiter über claude.ai/code arbeitest: Trag in den Umgebungseinstellungen (Umgebungsmenü in der Titelleiste der Sitzung → Bearbeiten → *Setup script*) diese Zeile ein. Jede neue Cloud-Sitzung installiert das Set dann selbst:
 ```bash
-git clone https://github.com/<dein-name>/webagentur.git ~/webagentur && bash ~/webagentur/setup-agentur.sh
+git clone https://github.com/rcccch/claude.git ~/webagentur && bash ~/webagentur/setup-agentur.sh
 ```
-Für ein privates Repo muss die Umgebung Zugriff darauf haben. Diesen Weg habe ich nicht getestet.
+Ist das Repo privat, musst du es in den Umgebungseinstellungen unter *Repositories* hinzufügen. Diesen Weg habe ich nicht getestet.
 
 ### 2.3 Performance mit 3D auf echter Hardware messen
 **Warum:** Hier ging es nur ohne GPU (siehe oben). Nach Schritt 2.1 auf deinem Rechner:
