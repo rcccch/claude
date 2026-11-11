@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Studio Fluss – Farbwelt: Kobaltglas, Glut, Eis */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-cobalt: var(--cobalt);
+  --color-cobalt-deep: var(--cobalt-deep);
+  --color-ember: var(--ember);
+  --color-ice: var(--ice);
+  --font-sans: var(--font-text);
+  --font-heading: var(--font-display);
+  --font-display: var(--font-display);
+  --radius-lg: var(--radius);
+}
+
+:root {
+  --ice: oklch(0.945 0.012 230);
+  --cobalt: oklch(0.33 0.11 268);
+  --cobalt-deep: oklch(0.2 0.07 268);
+  --ember: oklch(0.76 0.15 65);
+  --smoke: oklch(0.47 0.03 260);
+
+  --background: var(--ice);
+  --foreground: var(--cobalt-deep);
+  --primary: var(--cobalt);
+  --primary-foreground: oklch(0.98 0.005 230);
+  --muted: oklch(0.9 0.015 230);
+  --muted-foreground: var(--smoke);
+  --border: oklch(0.82 0.02 240);
+  --ring: var(--cobalt);
+  --radius: 999px;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-optical-sizing: auto;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 3px solid var(--ember);
+    outline-offset: 3px;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 50;
+  padding: 0.75rem 1.25rem;
+  background: var(--cobalt-deep);
+  color: white;
+  border-radius: 999px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
