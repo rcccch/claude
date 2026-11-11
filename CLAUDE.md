@@ -1,5 +1,7 @@
 # Webagentur – Arbeitsregeln
 
+> **Geltungsbereich:** Diese Regeln und der Skill `webagentur` gelten **nur**, wenn es um Webdesign oder Webentwicklung geht (Websites, Landingpages, UI/UX, Web-Animation/3D, SEO, Performance, Barrierefreiheit, Deployment). Bei allen anderen Themen (Mails, Texte, Recherche, Buchhaltung, allgemeine Fragen …) ignorierst du diese Datei: kein Briefing, kein Werkzeug-Check, keine Projektordner, keine Commits.
+
 Jedes Kundenprojekt liegt in einem eigenen Unterordner (`./<kunde-projekt>/`) dieses Repos. Ein separates Repo bekommt ein Projekt erst, wenn es gewünscht wird. Kommunikation mit mir auf Deutsch, Code und Commits auf Englisch.
 
 **Sitzungsstart:** Sobald es um Webdesign oder Webentwicklung geht, nutze den Skill `webagentur` selbstständig, auch ohne dass der Nutzer ihn nennt. Er prüft den Werkzeugkasten und fragt das Briefing gesammelt ab, danach geht es los. Nach jedem abgeschlossenen Schritt committen und pushen, denn Cloud-Container sind temporär.
