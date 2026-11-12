@@ -1,6 +1,6 @@
 # Briefing – Asia Wok Sinzig
 
-**Status:** Phase 1 – Material sichten (Bildrecherche, Logo). Danach Phase 3 Recherche/Designkonzept, dann STOPP zur Freigabe.
+**Status:** Phase 3 abgeschlossen (Daten, Logo, Recherche, Designkonzept) – wartet auf Freigabe, danach Phase 4 Umsetzung.
 
 ## Kunde
 - Asia Wok, „Asiatische Spezialitäten“, Markt 4, 53489 Sinzig
