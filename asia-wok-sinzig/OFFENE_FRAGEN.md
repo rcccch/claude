@@ -1,8 +1,8 @@
 # Offene Fragen – Asia Wok Sinzig
 
-Stand: 11.11.2026. ✅ = geklärt, ❓ = offen.
+Stand: 12.11.2026. ✅ = geklärt, ❓ = offen.
 
-## Geklärt (Antworten Inhaber, Chat 11.11.2026)
+## Geklärt (Antworten Inhaber, Chat 11.–12.11.2026)
 - ✅ Name: **Asia Wok** (nicht „WOKY“ / „WOK Schnellrestaurant“)
 - ✅ Telefon: wie Flyer – Tel. 02642 / 99 27 97, Tel./Fax 02642 / 99 24 57
 - ✅ **Nur Abholung**, keine Lieferung → kein Mindestbestellwert, keine Liefergebühr
@@ -10,6 +10,12 @@ Stand: 11.11.2026. ✅ = geklärt, ❓ = offen.
 - ✅ Zahlung: **nur bar**
 - ✅ Barrierefreier Zugang, 45 Plätze, Außenplätze am Markt dürfen auf die Website
 - ✅ Öffnungszeiten: wie Flyer
+- ✅ Allergen-Codes: Inhaber liefert noch einen besseren Scan/Foto (Punkt 1 bleibt bis dahin offen)
+- ✅ Aushang 40–45 kommt auf die Website, als eigene Rubrik **„Neuheiten“** (Nr. 45 bleibt `unsicher` bis zum besseren Foto)
+- ✅ Tippfehler und Schreibweisen werden immer korrigiert/vereinheitlicht (Original in `flyer_original`)
+- ✅ Nummernlücken sind gewollt
+- ✅ Nr. 106–112 bekommen eine eigene Überschrift: „Knusprig gebackenes Hühner- & Rindfleisch“ (Nr. 111 ist auf dem Flyer nicht als „knusprig gebacken“ beschrieben – Überschrift ggf. anpassen)
+- ✅ Vegetarisch = kein Fleisch/Fisch in Name und Zutatenliste → markiert: 5, 6, 23–25, 82, 96, 97, 113–119
 
 ## ❓ 1. Allergen-/Zusatzstoff-Codes nicht sicher lesbar
 Die hochgestellten Codes sind auf den Fotos nur wenige Pixel hoch. Alle Codes sind nach bestem Lesen erfasst; diese 22 sind besonders unsicher (`"allergene_unsicher": true` in `menu.json`). Bitte gegen den gedruckten Flyer prüfen:
@@ -44,31 +50,8 @@ Kindergerichte (79, 81, 82) und Gemischter Salat (6) haben auf dem Flyer keine C
 
 **Am einfachsten:** ein schärferes Foto oder Scan der beiden Innenseiten, oder die Druckdatei.
 
-## ❓ 2. Aushang „Neu im Angebot“ (Nr. 40–45)
-Steht nicht im Flyer, nur im Schaukasten (`flyer/05_aushang_neu-im-angebot.jpg`). Aktuell als eigene Kategorie „Neu im Angebot“ erfasst (`"nur_aushang": true`).
-- Sollen 40–45 auf die Website?
-- Nr. 45 „Schneewittchen-Wok „Garnelen““: Preis (gelesen 12,00 €), Beschreibung und Codes wegen Spiegelung kaum lesbar (`"unsicher": true`).
-
-## ❓ 3. Schreibweisen vom Flyer (aktuell wörtlich übernommen)
-Darf ich diese offensichtlichen Tippfehler auf der Website korrigieren?
-- 72 „Schneewitchen Wok“ → „Schneewittchen-Wok“ (im Aushang so geschrieben)
-- 79 „Hänchenfilet“ → „Hähnchenfilet“; 99 „Hänchenschenkel“ → „Hähnchenschenkel“
-- 22 „Gemüse & & Erdnuss-Sauce“ → „Gemüse & Erdnuss-Sauce“
-- 119 Tofu „zwiebeln“ → „Zwiebeln“
-- „Samba Oelek“ → „Sambal Oelek“
-- Uneinheitlich „Soße“/„Sauce“, „Champignon“/„Champignons“ – vereinheitlichen?
-
-## ❓ 4. Nummernlücken
-Nicht vergeben sind 12, 18, 26, 37–39, 46, 66, 67, 80, 84, 100–105 (40–45 nur im Aushang). Auf den Fotos ist an diesen Stellen nichts verdeckt – ich gehe davon aus, dass die Nummern bewusst fehlen. Bitte kurz bestätigen.
-
-## ❓ 5. Einordnung Nr. 106–112
-Diese Gerichte (knusprig gebackenes Hühnerfleisch bzw. Rindfleisch) stehen auf dem Flyer ohne eigene Überschrift direkt unter „Wok-Teller“ (78) und sind daher der Kategorie „Wokspezialitäten“ zugeordnet. Soll das so bleiben oder eine eigene Überschrift bekommen (z. B. „Knusprig gebackenes Hühnerfleisch“)?
-
-## ❓ 6. Vegetarisch-Kennzeichnung
-Als vegetarisch markiert sind nur die „Vegetarischen Gerichte“ (23–25, 96, 97) und die Herbstrolle (5), weil der Flyer nur dort „vegetarisch“ sagt. Sind die **Tofu-Gerichte (113–119)** ebenfalls vegetarisch (z. B. ohne Fisch-/Austernsoße)? Erst dann bekommen sie das Symbol.
-
-## ❓ 7. Logo
+## ❓ 2. Logo
 Gibt es Druckdaten (PDF/AI/EPS) oder die Pantone-Farbe des Logos? Das aktuelle Logo ist aus einem Foto nachgebaut (Details: `public/logo/LOGO.md`).
 
-## ❓ 8. Impressum / Datenschutz
+## ❓ 3. Impressum / Datenschutz
 Texte liefert ihr (Platzhalter vorgesehen). Für das Impressum werden u. a. Inhaber/Betreiber, Anschrift und ggf. USt-IdNr. gebraucht.
