@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx -y serve@14.2.4 out -l 3000",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:live": "SITE_URL=https://reichkraft.de/asi BASE_PATH=/asi next build",
+    "zip": "pnpm build:live && rm -rf .zipbau && mkdir -p .zipbau upload && cp -r out .zipbau/asi && cd .zipbau && zip -qr -X ../upload/asia-wok-website-asi.zip asi && cd .. && rm -rf .zipbau"
   },
   "packageManager": "pnpm@10.28.0",
   "dependencies": {

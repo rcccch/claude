@@ -261,7 +261,7 @@ body {
 }
 .unterleiste .btn { flex: 1; min-height: 50px; }
 @media (min-width: 1024px) { .unterleiste { display: none; } }
-.platz-unten { height: 84px; }
+.platz-unten { display: none; }
 @media (min-width: 1024px) { .platz-unten { display: none; } }
 
 /* Dialoge */
@@ -347,3 +347,7 @@ dialog.blatt::backdrop { background: oklch(26.9% 0.037 132.9 / .5); }
 @media (min-width: 1024px) { .gericht { grid-template-columns: 3.9rem minmax(0, 1fr) auto; } }
 .zettel-pos-kopf { grid-template-columns: 2.6rem minmax(0, 1fr) auto; }
 .zettel-pos-steuerung, .notiz { margin-left: calc(2.6rem + 8px); }
+/* Platz für die feste Leiste unten, damit der Fuß nicht verdeckt wird */
+@media (max-width: 1023.98px) {
+  body:has(.unterleiste) { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+}

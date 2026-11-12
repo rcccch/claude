@@ -16,6 +16,7 @@ Stand: 12.11.2026. ✅ = geklärt, ❓ = offen.
 - ✅ Nummernlücken sind gewollt
 - ✅ Nr. 106–112 bekommen eine eigene Überschrift: „Knusprig gebackenes Hühner- & Rindfleisch“ (Nr. 111 ist auf dem Flyer nicht als „knusprig gebacken“ beschrieben – Überschrift ggf. anpassen)
 - ✅ Fotos von reichkraft.de/asiawok dürfen verwendet werden; Zuordnung: Ente = Nr. 57, Hähnchen = Nr. 30, Nudeln = Nr. 11, zweites Nudelfoto = Kategoriebild
+- ✅ Adresse der Website: **https://reichkraft.de/asi/** (Unterordner `asi`)
 - ✅ Vegetarisch = kein Fleisch/Fisch in Name und Zutatenliste → markiert: 5, 6, 23–25, 82, 96, 97, 113–119
 
 ## ❓ 1. Allergen-/Zusatzstoff-Codes nicht sicher lesbar
@@ -57,8 +58,5 @@ Gibt es Druckdaten (PDF/AI/EPS) oder die Pantone-Farbe des Logos? Das aktuelle L
 ## ❓ 3. Impressum / Datenschutz
 Texte liefert ihr (Platzhalter vorgesehen). Für das Impressum werden u. a. Inhaber/Betreiber, Anschrift und ggf. USt-IdNr. gebraucht.
 
-## ❓ 4. Domain / Webspace
-Unter welcher Adresse geht die Seite online? Aktuell ist `https://reichkraft.de/asiawok` als Adresse für Suchmaschinen (Canonical, Sitemap, Open Graph) eingestellt. Liegt sie in einem Unterordner, wird beim Bauen `BASE_PATH=/asiawok` gesetzt (siehe README).
-
-## ❓ 5. Feiertag am Samstag
+## ❓ 4. Feiertag am Samstag
 Fällt ein Feiertag auf einen Samstag (Ruhetag), zeigt die Seite die Feiertagszeiten 13:00–21:00 Uhr („So. u. Feiertage“). Stimmt das, oder bleibt samstags immer geschlossen? Berücksichtigt werden die gesetzlichen Feiertage in Rheinland-Pfalz.

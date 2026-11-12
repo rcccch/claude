@@ -58,17 +58,25 @@ Die Adresse der Website ist für Suchmaschinen und Vorschaubilder wichtig. Sie w
 SITE_URL=https://www.beispiel.de pnpm build
 ```
 
-Liegt die Seite in einem **Unterordner** (z. B. `https://reichkraft.de/asiawok/`):
+Liegt die Seite in einem **Unterordner**, wie aktuell `https://reichkraft.de/asi/`:
 
 ```bash
-SITE_URL=https://reichkraft.de/asiawok BASE_PATH=/asiawok pnpm build
+SITE_URL=https://reichkraft.de/asi BASE_PATH=/asi pnpm build
 ```
+
+Dafür gibt es zwei Kurzbefehle:
+
+- `pnpm build:live` baut die Seite für `reichkraft.de/asi`.
+- `pnpm zip` macht dasselbe und legt zusätzlich die fertige Datei `upload/asia-wok-website-asi.zip` an.
 
 Vor dem Hochladen lokal ansehen: `pnpm start` und dann http://localhost:3000 im Browser öffnen.
 
 ## Hochladen
 
-Den **Inhalt** des Ordners `out/` per FTP/SFTP in das Webverzeichnis des Webspace kopieren, also in den Zielordner bzw. Unterordner. Weitere Einstellungen am Server sind nicht nötig, weil jede Seite als eigener Ordner mit `index.html` angelegt ist (`/impressum/`, `/datenschutz/`).
+**Mit der ZIP-Datei:** `asia-wok-website-asi.zip` enthält den fertigen Ordner `asi/`. Diesen Ordner in das Hauptverzeichnis von reichkraft.de entpacken bzw. hochladen. Danach muss `https://reichkraft.de/asi/index.html` existieren.
+
+**Ohne ZIP:** 
+Den **Inhalt** des Ordners `out/` per FTP/SFTP in das Webverzeichnis des Webspace kopieren, also in den Zielordner bzw. Unterordner. Weitere Einstellungen am Server sind nicht nötig. Hinweis: `robots.txt` und `sitemap.xml` liegen im Unterordner. Suchmaschinen lesen eine `robots.txt` aber nur im Hauptverzeichnis der Domain; die Sitemap kann man stattdessen in der Google Search Console einreichen, weil jede Seite als eigener Ordner mit `index.html` angelegt ist (`/impressum/`, `/datenschutz/`).
 
 ## Impressum und Datenschutz
 

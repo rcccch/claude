@@ -73,4 +73,4 @@ export function bild(datei: string) {
 }
 
 /** Endgültige Adresse der Seite (für Canonical, Open Graph, Sitemap). Beim Build per SITE_URL setzen. */
-export const SITE_URL = (process.env.SITE_URL ?? "https://reichkraft.de/asiawok").replace(/\/$/, "");
+export const SITE_URL = (process.env.SITE_URL ?? "https://reichkraft.de/asi").replace(/\/$/, "");
