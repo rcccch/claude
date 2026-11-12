@@ -15,6 +15,7 @@ Stand: 12.11.2026. ✅ = geklärt, ❓ = offen.
 - ✅ Tippfehler und Schreibweisen werden immer korrigiert/vereinheitlicht (Original in `flyer_original`)
 - ✅ Nummernlücken sind gewollt
 - ✅ Nr. 106–112 bekommen eine eigene Überschrift: „Knusprig gebackenes Hühner- & Rindfleisch“ (Nr. 111 ist auf dem Flyer nicht als „knusprig gebacken“ beschrieben – Überschrift ggf. anpassen)
+- ✅ Fotos von reichkraft.de/asiawok dürfen verwendet werden; Zuordnung: Ente = Nr. 57, Hähnchen = Nr. 30, Nudeln = Nr. 11, zweites Nudelfoto = Kategoriebild
 - ✅ Vegetarisch = kein Fleisch/Fisch in Name und Zutatenliste → markiert: 5, 6, 23–25, 82, 96, 97, 113–119
 
 ## ❓ 1. Allergen-/Zusatzstoff-Codes nicht sicher lesbar
@@ -50,14 +51,14 @@ Kindergerichte (79, 81, 82) und Gemischter Salat (6) haben auf dem Flyer keine C
 
 **Am einfachsten:** ein schärferes Foto oder Scan der beiden Innenseiten, oder die Druckdatei.
 
-## ❓ 2. Bildrechte der Fotos von reichkraft.de/asiawok
-Die Fotos (Ente, Hähnchen süß-sauer, Nudeln ×2, Fassade, Eingang, Fensterplatz) werden als Highlights eingebaut. Das **Entenfoto ist identisch mit einem Gästefoto auf Restaurant Guru** (Collage „Ente/Suppe“), Teller und Stil der anderen Gerichtfotos passen zu weiteren Gästefotos dort.
-- Wer hat die Fotos gemacht? Liegt eine Erlaubnis vor (bzw. sind es eigene)?
-- Bis das geklärt ist, liegen die Dateien **nicht im öffentlichen Repo**, sondern werden per `tools/fetch-highlights.sh` geladen.
-- Zuordnung Foto → Gericht bitte bestätigen: Ente = Nr. 57 (geschätzt), Hähnchen = Nr. 30, Nudeln = Nr. 11 (geschätzt), zweites Nudelfoto = Kategoriebild „Gebratene Nudelgerichte“.
+## ❓ 2. Logo
+Gibt es Druckdaten (PDF/AI/EPS) oder die Pantone-Farbe des Logos? Das aktuelle Logo ist aus einem Foto nachgebaut (Details: `logo-arbeit/LOGO.md`).
 
-## ❓ 3. Logo
-Gibt es Druckdaten (PDF/AI/EPS) oder die Pantone-Farbe des Logos? Das aktuelle Logo ist aus einem Foto nachgebaut (Details: `public/logo/LOGO.md`).
-
-## ❓ 4. Impressum / Datenschutz
+## ❓ 3. Impressum / Datenschutz
 Texte liefert ihr (Platzhalter vorgesehen). Für das Impressum werden u. a. Inhaber/Betreiber, Anschrift und ggf. USt-IdNr. gebraucht.
+
+## ❓ 4. Domain / Webspace
+Unter welcher Adresse geht die Seite online? Aktuell ist `https://reichkraft.de/asiawok` als Adresse für Suchmaschinen (Canonical, Sitemap, Open Graph) eingestellt. Liegt sie in einem Unterordner, wird beim Bauen `BASE_PATH=/asiawok` gesetzt (siehe README).
+
+## ❓ 5. Feiertag am Samstag
+Fällt ein Feiertag auf einen Samstag (Ruhetag), zeigt die Seite die Feiertagszeiten 13:00–21:00 Uhr („So. u. Feiertage“). Stimmt das, oder bleibt samstags immer geschlossen? Berücksichtigt werden die gesetzlichen Feiertage in Rheinland-Pfalz.

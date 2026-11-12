@@ -1,0 +1,29 @@
+{
+  "name": "asia-wok-sinzig",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fotos": "bash tools/fetch-highlights.sh",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx -y serve@14.2.4 out -l 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "packageManager": "pnpm@10.28.0",
+  "dependencies": {
+    "gsap": "3.15.1",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@fontsource/atkinson-hyperlegible-next": "5.3.0",
+    "@fontsource/barlow-semi-condensed": "5.3.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  }
+}
