@@ -1,0 +1,17 @@
+{
+  "quelle": "https://reichkraft.de/asiawok/img/ (Fotos von der bisherigen Asia-Wok-Seite)",
+  "hinweis": "Bilddateien liegen nicht im Git-Repo (öffentlich, Bildrechte ungeklärt). Laden mit: bash tools/fetch-highlights.sh",
+  "gerichte": [
+    { "datei": "duck", "nr": "57", "format": "4:5", "alt": "Knusprig gebackene Ente in Scheiben mit Gemüse, brauner Soße und Duftreis", "unsicher": "Zuordnung zu Nr. 57 geschätzt (alte Seite: Nr. 57–60)" },
+    { "datei": "chicken", "nr": "30", "format": "4:5", "alt": "Knusprig gebackenes Hähnchenfilet mit Reis und Süß-Sauer-Soße" },
+    { "datei": "noodles", "nr": "11", "format": "4:5", "alt": "Gebratene Nudeln mit Hähnchen, Sojakeimen, Lauch und Karotten", "unsicher": "Zuordnung zu Nr. 11 geschätzt (alte Seite: „Gebratene Nudeln“)" }
+  ],
+  "kategorien": [
+    { "datei": "noodles2", "kategorie": "nudeln", "format": "2:1", "alt": "Gebratene Nudeln mit Hähnchen und Gemüse auf weißem Teller" }
+  ],
+  "haus": [
+    { "datei": "facade", "einsatz": "anfahrt", "format": "10:7", "alt": "Das Asia Wok mit gelber Fassade am Markt 4 in Sinzig" },
+    { "datei": "entrance", "einsatz": "abholung", "format": "4:5", "alt": "Eingang des Asia Wok mit grünem Schild über der Tür" },
+    { "datei": "window", "einsatz": "reserve", "format": "1:1", "alt": "Fensterplatz mit Speisekarte und Blick auf den Marktplatz von Sinzig" }
+  ]
+}

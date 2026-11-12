@@ -105,6 +105,23 @@ Mobil zuerst (390 px), einspaltig, 16 px Seitenrand. Die Gerichtzeile ist ein fe
 
 **Ohne Fotos:** Die Karte trägt sich typografisch. Das ist laut Recherche bei Hakkasan, Nobu und Momofuku Standard. Einziges Bildmotiv sind die Dampflinien aus dem Logo, als feines Linienmotiv im Kopf und als Trenner zwischen Kopf und Karte. Für spätere echte Fotos ist ein Platz unter „Anfahrt“ vorgesehen (Fassade, Terrasse am Marktbrunnen) und als `<!-- FOTO -->` markiert. Bis echte Fotos da sind, steht dort eine Karte mit Adresse und keine Attrappe.
 
+## Highlight-Fotos (von reichkraft.de/asiawok)
+
+Es gibt echte Fotos von der bisherigen Seite: Ente, Hähnchen süß-sauer, zweimal gebratene Nudeln, Fassade, Eingang und Fensterplatz. Wir setzen sie **sparsam als Akzent** ein, damit die Karte typografisch bleibt.
+
+- **3 Gericht-Highlights** innerhalb ihrer Kategorie (`src/data/highlights.json`): Nr. 57 Ente, Nr. 30 Hühnerfleisch süß-sauer, Nr. 11 Gebratene Nudeln.
+  - **Mobil:** Das Foto läuft randlos im Format 4:5, darauf steht die Gerichtnummer sehr groß in Fassadengelb. Das ist die Leitidee „Die Nummer, bitte“ in groß. Darunter folgt die normale Gerichtzeile mit Preis und „+“.
+  - **Desktop:** Das Foto steht rechts neben einer Gruppe von 3–4 Zeilen derselben Kategorie.
+  - Das Highlight ersetzt die normale Zeile des Gerichts, es erscheint also nicht doppelt.
+- **1 Kategoriebild** im Format 2:1 unter der Überschrift „Gebratene Nudelgerichte“.
+- **Haus-Fotos:**
+  - Fassade bei „Anfahrt & Kontakt“, das löst den Foto-Platzhalter ab.
+  - Eingang bei „Abholung“.
+  - Fensterplatz in Reserve.
+- **Keine Werbe-Etiketten** wie „Beliebt“ oder „Bestseller“, denn dafür gibt es keinen Beleg. Preise immer aus `menu.json`, die alte Seite hat veraltete Preise.
+- **Technik:** Fotos mit `srcset` (800/1400 px, WebP), feste Seitenverhältnisse gegen Layout-Sprünge und `loading="lazy"`. Ohne Fotos fällt das Layout auf die normale Zeile zurück.
+- **Rechte:** Die Bilddateien liegen nicht im öffentlichen Repo. `tools/fetch-highlights.sh` lädt sie vor dem Build. Mindestens das Entenfoto ist auch als Gästefoto auf Restaurant Guru zu finden. Die Rechte sind zu klären, siehe `OFFENE_FRAGEN.md`.
+
 ## Speisekarte – Verhalten
 
 - **Kategorien-Navigation:** Mobil zeigt eine sticky Leiste die aktuelle Kategorie. Antippen öffnet die vollständige Liste als natives `<dialog>`. Desktop: sticky Seitenleiste mit Scrollspy (IntersectionObserver).

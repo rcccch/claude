@@ -50,8 +50,14 @@ Kindergerichte (79, 81, 82) und Gemischter Salat (6) haben auf dem Flyer keine C
 
 **Am einfachsten:** ein schärferes Foto oder Scan der beiden Innenseiten, oder die Druckdatei.
 
-## ❓ 2. Logo
+## ❓ 2. Bildrechte der Fotos von reichkraft.de/asiawok
+Die Fotos (Ente, Hähnchen süß-sauer, Nudeln ×2, Fassade, Eingang, Fensterplatz) werden als Highlights eingebaut. Das **Entenfoto ist identisch mit einem Gästefoto auf Restaurant Guru** (Collage „Ente/Suppe“), Teller und Stil der anderen Gerichtfotos passen zu weiteren Gästefotos dort.
+- Wer hat die Fotos gemacht? Liegt eine Erlaubnis vor (bzw. sind es eigene)?
+- Bis das geklärt ist, liegen die Dateien **nicht im öffentlichen Repo**, sondern werden per `tools/fetch-highlights.sh` geladen.
+- Zuordnung Foto → Gericht bitte bestätigen: Ente = Nr. 57 (geschätzt), Hähnchen = Nr. 30, Nudeln = Nr. 11 (geschätzt), zweites Nudelfoto = Kategoriebild „Gebratene Nudelgerichte“.
+
+## ❓ 3. Logo
 Gibt es Druckdaten (PDF/AI/EPS) oder die Pantone-Farbe des Logos? Das aktuelle Logo ist aus einem Foto nachgebaut (Details: `public/logo/LOGO.md`).
 
-## ❓ 3. Impressum / Datenschutz
+## ❓ 4. Impressum / Datenschutz
 Texte liefert ihr (Platzhalter vorgesehen). Für das Impressum werden u. a. Inhaber/Betreiber, Anschrift und ggf. USt-IdNr. gebraucht.
